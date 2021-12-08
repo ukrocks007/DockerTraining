@@ -106,3 +106,4 @@ buildNumber.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/vagrant
 live-examples/
+examples/1-web-apps/spring-greeting/node/package-lock.json
