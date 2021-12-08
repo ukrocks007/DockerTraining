@@ -3,7 +3,7 @@ version: "3.7"
 services:
   greeting:
     restart: on-failure
-    image: agarwalconsulting/spring-greeting
+    image: node-backend
     deploy:
       resources:
         limits:
@@ -16,14 +16,6 @@ services:
       - backend
     ports:
       - "8080:8080"
-
-  curl-test:
-    build:
-      context: ./curl-test # Directory containing Dockerfile
-    command: sleep 1000
-    restart: always
-    networks:
-      - backend
 
   frontend:
     build:

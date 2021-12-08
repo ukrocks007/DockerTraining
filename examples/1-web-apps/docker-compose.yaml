@@ -3,7 +3,7 @@ version: "3.7"
 services:
   greeting:
     restart: on-failure
-    image: agarwalconsulting/spring-greeting
+    image: spring-greeting
 
   curl-test:
     restart: always
