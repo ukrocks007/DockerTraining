@@ -1,0 +1,6 @@
+Create a container from alpine
+Add a new file named index.js
+Add document.alert("Hello All!");
+Save the file
+Use docker commit to create new image named alpinejs
+Run the alpinejs container and print contents of index.js using cat
